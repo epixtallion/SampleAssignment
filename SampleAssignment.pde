@@ -1,10 +1,10 @@
-
 void setup()
 {
   size(200,100);
 }
 void draw()
 {
+  background(255/24*hour(), 255/60*minute(), 255/60*second());
   fill(255,255,0);
   ellipse(100,50,80,80);
   arc(100,50,60,60,PI/8,7*PI/8);
